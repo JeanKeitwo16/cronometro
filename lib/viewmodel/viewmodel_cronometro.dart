@@ -7,7 +7,8 @@ class ViewmodelCronometro {
   Timer? atualizarCronometro;
   Timer? notificacaoInatividade;
   final StreamController<Duration> controladorStreamCronometro =
-      StreamController<Duration>();
+    StreamController<Duration>.broadcast();
+
 
   Stream<Duration> get fluxoCronometro => controladorStreamCronometro.stream;
   bool get estado => modelo.estadoCronometro;
