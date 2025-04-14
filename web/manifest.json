@@ -1,6 +1,6 @@
 {
-    "name": "cronometro",
-    "short_name": "cronometro",
+    "name": "notificacoes",
+    "short_name": "notificacoes",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

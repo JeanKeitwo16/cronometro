@@ -1,7 +1,10 @@
+import 'package:cronometro/services/service_notificacoes.dart';
 import 'package:cronometro/view/view_cronometro.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await ServicoNotificacoes.inicializar();
   runApp(const MyApp());
 }
 

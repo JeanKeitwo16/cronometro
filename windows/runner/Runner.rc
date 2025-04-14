@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "cronometro" "\0"
+            VALUE "CompanyName", "br.edu.ifsul" "\0"
+            VALUE "FileDescription", "notificacoes" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "cronometro" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "cronometro.exe" "\0"
-            VALUE "ProductName", "cronometro" "\0"
+            VALUE "InternalName", "notificacoes" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 br.edu.ifsul. All rights reserved." "\0"
+            VALUE "OriginalFilename", "notificacoes.exe" "\0"
+            VALUE "ProductName", "notificacoes" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
